@@ -2,7 +2,7 @@ var moment = require('moment'); // require
 var tools = require('./lib/bh_core.js');
 
 var countSystemSleep = 0;
-const behave = "behaviors.json"; // global name of our file.
+const behave = "behaviors.json"; // global name of our behavoir file.
 
 
 (async () => {
