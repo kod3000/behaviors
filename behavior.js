@@ -1,5 +1,3 @@
-// var path = require('path');
-// const fs = require('fs');
 var moment = require('moment'); // require
 var tools = require('./lib/core.js');
 
