@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "moment": "^2.29.1",
     "node-cmd": "^4.0.0",
     "node-notifier": "^10.0.0"
   }
