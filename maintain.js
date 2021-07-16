@@ -63,7 +63,7 @@ var projectLocation = false;
 var projectName = false;
 let numOfAutoCommits = 0; // default counter for auto commits performed.
 let pullCount = 0; // count the number of pulls made
-var commitAutoMessage = 'Auto Commit'; // commit message the system will set each time.
+var commitAutoMessage = '...'; // commit message the system will set each time.
 
 
 // these two control the pace of the commits.
