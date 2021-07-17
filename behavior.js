@@ -63,7 +63,7 @@ for(j=0;j<storageData.length;j++){
       // first up if we past it awhile ago.. forget it..
       // check if we ran past our date without running our command 
       // if we past it less than a minute ago .. run it.
-      if(e.foundDate==false && (Date.now()-new Date(e.runTime))<60000 ){
+      if(e.foundDate==false && (Date.now()-new Date(e.runTime))<300000 ){
       // console.log("\n\n\nrunning command for the date..\n\n\n")
         tools.run(e.cmd, async function(e,d,s){
               console.log(d)
