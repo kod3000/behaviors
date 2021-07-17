@@ -49,6 +49,8 @@ for(j=0;j<storageData.length;j++){
     console.log("\nfound date..\n")
     e.foundDate = true;
     tools.run(e.cmd, function(e,d,s){
+      if(e)console.error(e);
+      if(s)console.error(s);
       console.log(d)
     })
   }
