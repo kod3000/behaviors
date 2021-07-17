@@ -7,7 +7,7 @@ const behave = "behaviors.json"; // global name of our behavoir file.
 
 (async () => {
 
-console.log("\n\t\t\tStarting Up behaviors")
+console.log("\n\t\t\tStarting Up Behaviors")
 
 tools.tt();
 
