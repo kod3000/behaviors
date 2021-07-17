@@ -11,7 +11,7 @@ behaviors.tt();
 
 console.log("\n\t\t\tSupports : +days, +hrs, +mins\n\n")
 
-behaviors.sysStartUp();
+await behaviors.sysStartUp();
 
 do{
 // this needs its own function
