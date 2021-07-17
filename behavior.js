@@ -11,6 +11,9 @@ console.log("\n\t\t\tStarting Up Behaviors")
 
 tools.tt();
 
+console.log("\n\t\t\tSupports : +days, +hrs, +mins")
+
+
 // check if we have our behave json file
 let checkFile = await tools.qD(behave)
 // setup our storage
