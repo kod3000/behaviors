@@ -16,7 +16,7 @@ if(checkFile){
 }else{
   // no file found.. lets create a test one to modify
   storageData = [
-                    {runTime:'07-24-21 13:38:13',cmd:"pwd",nextRun:{days:1,mins:'r',sec:'r'}}, // next run will be in 1 day (randomize seconds and minutes)
+                    {runTime:'07-17-21 13:38:13',cmd:"pwd",nextRun:{days:1,mins:'r',sec:'r'}}, // next run will be in 1 day (randomize seconds and minutes)
                     {runTime:'07-16-21 07:18:13',cmd:"ls",nextRun:{mins:3}}, // next run will be in 3 minutes. (randomize seconds) 
                     {runTime:'01-01-22 00:00:01',cmd:"echo 'happy new year world!!!'"}, // not going to rerun
                 ]
