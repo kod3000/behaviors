@@ -8,7 +8,7 @@ const behave = "behaviors.json"; // global name of our behavoir file.
 (async () => {
 
 console.log("\n\t\t\tStarting Up behaviors")
-tools.tt();
+//tools.tt();
 
 // check if we have our behave json file
 let checkFile = await tools.qD(behave)
