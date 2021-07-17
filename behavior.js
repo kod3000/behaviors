@@ -11,7 +11,7 @@ console.log("\n\t\t\tStarting Up Behaviors")
 
 tools.tt();
 
-console.log("\n\t\t\tSupports : +days, +hrs, +mins")
+console.log("\n\t\t\tSupports : +days, +hrs, +mins\n\n")
 
 
 // check if we have our behave json file
