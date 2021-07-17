@@ -32,7 +32,7 @@ if(checkFile){
 }
 
 do{
-// MOvE THIS ENTIRE THING INTO ITS OWN FUNCTION!!
+// this needs its own function
 // go thru each command ...
 for(j=0;j<storageData.length;j++){
   let e = storageData[j];
