@@ -1,0 +1,34 @@
+[
+  {
+    "runTime": "07-18-21 00:18:00",
+    "cmd": "pwd",
+    "nextRun": {
+      "days": 1,
+      "mins": "r",
+      "sec": "r"
+    }
+  },
+  {
+    "runTime": "07-17-21 00:11:37",
+    "cmd": "ls",
+    "nextRun": {
+      "mins": 3,
+      "sec": "r"
+    }
+  },
+  {
+    "runTime": "07-17-21 00:20:13",
+    "cmd": "pwd",
+    "nextRun": {
+      "mins": 3
+    }
+  },
+  {
+    "runTime": "01-23-22 08:38:13",
+    "cmd": "ls"
+  },
+  {
+    "runTime": "01-01-22 00:00:01",
+    "cmd": "echo 'happy new year world!!!'"
+  }
+]
