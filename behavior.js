@@ -6,6 +6,10 @@ const behave = "behaviors.json"; // global name of our behavoir file.
 
 
 (async () => {
+
+console.log("\n\t\t\tStarting Up behaviors")
+tools.tt();
+
 // check if we have our behave json file
 let checkFile = await tools.qD(behave)
 // setup our storage
@@ -24,6 +28,7 @@ if(checkFile){
 }
 
 do{
+// MOvE THIS ENTIRE THING INTO ITS OWN FUNCTION!!
 // go thru each command ...
 for(j=0;j<storageData.length;j++){
   let e = storageData[j];
