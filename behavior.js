@@ -11,6 +11,7 @@ await behaviors.init();
 do{
 // this needs its own function
 // go thru each command ...
+await behaviors.cycle();
 
 }while(true)
 process.exit();
