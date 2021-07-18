@@ -8,11 +8,13 @@ await behaviors.splash();
 await behaviors.init();
 
 do{
-  console.log("what... ")
+
 // this needs its own function
 // go thru each command ...
 await behaviors.cycle();
 }while(true)
 
-//process.exit();
+process.exit();
+
+
 })();
