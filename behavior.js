@@ -5,14 +5,13 @@ var countSystemSleep = 0;
 
 (async () => {
 await behaviors.splash();
-
 await behaviors.init();
 
 do{
 // this needs its own function
 // go thru each command ...
 await behaviors.cycle();
-
 }while(true)
-process.exit();
+
+//process.exit();
 })();
