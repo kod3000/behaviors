@@ -4,20 +4,13 @@ var countSystemSleep = 0;
 
 
 (async () => {
-
-console.log("\n\t\t\tStarting Up Behaviors")
-
-behaviors.tt();
-
-console.log("\n\t\t\tSupports : +days, +hrs, +mins\n\n")
+await behaviors.splash();
 
 await behaviors.init();
 
 do{
 // this needs its own function
 // go thru each command ...
-
-
 
 }while(true)
 process.exit();
