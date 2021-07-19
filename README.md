@@ -1,4 +1,4 @@
-# Behaviors
+![alt text](imgs/small.png "Behaviors")
 
 
 
