@@ -1,4 +1,4 @@
-![alt text](imgs/smallG.png "Behaviors")
+![alt text](imgs/small.png "Behaviors")
 
 
 
@@ -11,4 +11,20 @@ The idea here is to have a schedule of timed commands that can be executed witho
 In a way its kind of like an alarm clock for your system based tasks. When the time hits the command executes via command line. Built in a way that you can be very specific on how you want it to behave. Using a simple json file for now all you have to do is edit the file once its created and you're set to go. Set your behavior to repeat everyday or just have it run once, best thing is that you dont have to wait for the events to happen just set the date and let it run. ^_^
 
 
+# Sample
 
+    [
+      {
+        "runTime": "07-20-21 01:09:54",
+        "cmd": "pwd",
+        "nextRun": {
+          "days": 1, // after scheduled run, do it again in 1 day from now
+          "mins": "r", // randomly choose the minutes/secs ie( 2:15:32am || 2:41:02am || 2:01:44am )
+          "sec": "r" 
+        }
+      },
+      {
+        "runTime": "01-01-22 00:00:01", // not specifing 'nextRun' means this will only run once on the scheduled time
+        "cmd": "echo 'hello stars, the earth says happy new year!!!'" 
+      }
+    ]
