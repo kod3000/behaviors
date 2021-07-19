@@ -1,4 +1,4 @@
-![alt text](imgs/small.png "Behaviors")
+![alt text](imgs/smallG.png "Behaviors")
 
 
 
