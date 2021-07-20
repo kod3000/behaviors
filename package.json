@@ -4,7 +4,9 @@
     "description": "A cron like app with some flavor.",
     "main": "behavior.js",
     "scripts": {
-        "start": "node behavior.js"
+        "start": "node behavior.js",
+        "test": "node behavior.js"
+
     },
   "dependencies": {
     "moment": "^2.29.1",
