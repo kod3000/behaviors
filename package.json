@@ -1,4 +1,11 @@
 {
+  "name": "Behaviors",
+    "version": "1.1.2",
+    "description": "A cron like app with some flavor.",
+    "main": "behavior.js",
+    "scripts": {
+        "start": "node behavior.js",
+    },
   "dependencies": {
     "moment": "^2.29.1",
     "node-cmd": "^4.0.0",
