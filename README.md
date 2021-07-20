@@ -1,7 +1,7 @@
 ![alt text](imgs/small.png "Behaviors")
 
 
-
+[![Build Status](https://travis-ci.com/kod3000/behaviors.svg?branch=main)](https://travis-ci.com/kod3000/behaviors)
 ## Description
 
 Made to control system based events in a timely manner. 
