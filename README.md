@@ -28,3 +28,8 @@ In a way its kind of like an alarm clock for your system based tasks. When the t
         "cmd": "echo 'hello stars, the earth says happy new year!!!'" 
       }
     ]
+
+
+# Donate
+
+![btc](https://github.com/kod3000/EventsManager/blob/d54efb0e1301a6cc1d508b8a9c571f3bb8da04b8/public/img/bitcoin.png) Bitcoin: `34zin8qyLHUcaN1E9veNoorPujaRVnr6ZZ`
