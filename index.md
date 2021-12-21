@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Description
 
-You can use the [editor on GitHub](https://github.com/kod3000/behaviors/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Made to control system based events in a timely manner. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The idea here is to have a schedule of timed commands that can be executed without the need of supervision. So mundane tasks like 'updating a file in a shared library' or 'running a script at certain hour but randomize it so that its not too botty'. 
 
-### Markdown
+In a way its kind of like an alarm clock for your system based tasks. When the time hits the command executes via command line. Built in a way that you can be very specific on how you want it to behave. Using a simple json file for now all you have to do is edit the file once its created and you're set to go. Set your behavior to repeat everyday or just have it run once, best thing is that you dont have to wait for the events to happen just set the date and let it run. ^_^
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# Sample
 
-# Header 1
-## Header 2
-### Header 3
+    [
+      {
+        "runTime": "07-20-21 01:09:54",
+        "cmd": "pwd",
+        "nextRun": {
+          "days": 1, // after scheduled run, do it again in 1 day from now
+          "mins": "r", // randomly choose the minutes/secs ie( 2:15:32am || 2:41:02am || 2:01:44am )
+          "sec": "r" 
+        }
+      },
+      {
+        "runTime": "01-01-22 00:00:01", // not specifing 'nextRun' means this will only run once on the scheduled time
+        "cmd": "echo 'hello stars, the earth says happy new year!!!'" 
+      }
+    ]
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+# Donate
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kod3000/behaviors/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![btc](https://github.com/kod3000/EventsManager/blob/d54efb0e1301a6cc1d508b8a9c571f3bb8da04b8/public/img/bitcoin.png) Bitcoin: `34zin8qyLHUcaN1E9veNoorPujaRVnr6ZZ`
